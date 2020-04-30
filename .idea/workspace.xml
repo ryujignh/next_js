@@ -2,16 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="864112c0-7b29-4e56-b1bc-86b85f9c2b03" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.next/build-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/.next/build-manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/server/pages-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/.next/server/pages-manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/server/static/development/pages/index.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/.next/server/static/development/pages/index.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/static/development/pages/index.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/.next/static/development/pages/index.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/User.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/server/static/development/pages/auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/.next/server/static/development/pages/auth.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/server/static/development/pages/auth.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/.next/server/static/development/pages/auth.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/development/pages/auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/.next/static/development/pages/auth.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/development/pages/auth.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/.next/static/development/pages/auth.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.next/static/runtime/webpack.js" beforeDir="false" afterPath="$PROJECT_DIR$/.next/static/runtime/webpack.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.next/static/runtime/webpack.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/.next/static/runtime/webpack.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/static/webpack/94db7aa44dc2ed053cba.hot-update.json" beforeDir="false" afterPath="$PROJECT_DIR$/.next/static/webpack/94db7aa44dc2ed053cba.hot-update.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/static/webpack/97ca4848701dd928c7ed.hot-update.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/auth/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/auth/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +51,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1588203263210</updated>
-      <workItem from="1588203264487" duration="697000" />
+      <workItem from="1588203264487" duration="1617000" />
     </task>
     <task id="LOCAL-00001" summary="Add package.json">
       <created>1588203502088</created>
@@ -83,7 +81,21 @@
       <option name="project" value="LOCAL" />
       <updated>1588203827817</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Add Link">
+      <created>1588203973870</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1588203973870</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Add Route">
+      <created>1588204160783</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1588204160783</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -94,13 +106,15 @@
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="Add package.json" />
     <MESSAGE value="Initial setup" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial setup" />
+    <MESSAGE value="Add Link" />
+    <MESSAGE value="Add Route" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Route" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1003" y="124" key="CommitChangelistDialog2" timestamp="1588203827670">
+    <state x="960" y="0" width="960" height="1080" key="CommitChangelistDialog2" timestamp="1588204160386">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="1003" y="124" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1588203827670" />
+    <state x="960" y="0" width="960" height="1080" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1588204160386" />
     <state x="1320" y="444" key="Github.ShareDialog" timestamp="1588203329561">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -109,13 +123,13 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="1279" y="251" key="Github.UntrackedFilesDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1588203333808" />
-    <state x="1040" y="280" key="Vcs.Push.Dialog.v2" timestamp="1588203483409">
+    <state x="1040" y="280" key="Vcs.Push.Dialog.v2" timestamp="1588204166820">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="1040" y="280" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1588203483409" />
-    <state x="1105" y="241" width="670" height="676" key="search.everywhere.popup" timestamp="1588203679572">
+    <state x="1040" y="280" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1588204166820" />
+    <state x="1105" y="241" width="670" height="676" key="search.everywhere.popup" timestamp="1588204164705">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="1105" y="241" width="670" height="676" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1588203679572" />
+    <state x="1105" y="241" width="670" height="676" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1588204164705" />
   </component>
 </project>
